@@ -7,24 +7,25 @@ It generates secrets, creates QR codes for authentication apps, and verifies use
 - Create QR codes for easy authentication setup
 - Verify one-time passwords entered by the user
 
-  ## Installation
+## Installation
 Ensure you have Python installed. Then, install dependencies:
 
 ```bash
 pip install pyotp qrcode
+```
 
-# Usage
-Explain how to run the program:
-```markdown
 ## Usage
+Follow the prompts to:
+1. Generate and save a secret key.
+2. Scan the QR code with an authenticator app.
+3. Enter the generated code to verify authentication.
+
+## Run
 Run the script using:
 
 ```bash
 python main.py
-
-## File Structure
-Provide an overview of important files:
-```markdown
+```
 ## File Structure
 - `main.py` - The primary script for generating secrets, QR codes, and verifying authentication.
 - `secrets.txt` - Stores generated secrets (for demonstration only; should use a secure storage method).
