@@ -24,7 +24,7 @@ Follow the prompts to:
 Run the script using:
 
 ```bash
-python main.py
+NuruAutt.py
 ```
 ## File Structure
 - `main.py` - The primary script for generating secrets, QR codes, and verifying authentication.
